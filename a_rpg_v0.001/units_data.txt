@@ -1,0 +1,15 @@
+
+
+class
+level
+hit points
+stamina
+mana points
+
+movespeed
+agility
+attack
+dodge
+block
+special_moves
+

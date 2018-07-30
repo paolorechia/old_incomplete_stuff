@@ -1,0 +1,21 @@
+train batch_size = 8
+222.821 iter/s
+Test net output #0: accuracy = 0.0725
+I0917 10:53:13.948787 16797 solver.cpp:397]     Test net output #1: loss = 87.3365 (* 1 = 87.3365 loss)
+
+
+train_batch_size = 16
+138.668 iter/s
+Test net output #0: accuracy = 0.99375
+I0917 10:52:04.333955 16759 solver.cpp:397]     Test net output #1: loss = 0.0160998 (* 1 = 0.0160998 loss)
+
+train batch_size = 32
+81.2138 iter/s
+Test net output #0: accuracy = 0.99375
+I0917 11:02:47.898586 17036 solver.cpp:397]     Test net output #1: loss = 0.0207763 (* 1 = 0.0207763 loss)
+
+train batch_size = 64
+42.4134 iter/s
+ Test net output #0: accuracy = 0.994375
+I0917 10:58:40.222215 16888 solver.cpp:397]     Test net output #1: loss = 0.0207352 (* 1 = 0.0207352 loss)
+

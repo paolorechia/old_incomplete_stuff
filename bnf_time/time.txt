@@ -1,0 +1,25 @@
+<time>          ::= <hour-long>  ":" <minutes>
+                |   <hour-short> ":" <minutes> <suffix>
+                |   <hour-short> <suffix>
+
+<hour-long>     ::= "2" <hour-digit-1>
+                |   "1" <digit>
+                |   <digit>
+
+<hour-short>    ::= <digit> <hour-digit-0>
+                    "1" <hour-digit-0>
+                
+
+<minutes>       ::= <minute-digit> <digit>
+
+<suffix>        ::= "am"
+                |   "pm"
+                |   "Am"
+                |   "aM"
+                |   "pM"
+                |   "Pm"
+
+<digit>         ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+<hour-digit-0>  ::= "0" | "1" | "2" |
+<hour-digit-1>  ::= "0" | "1" | "2" | "3" | "4" 
+<minute-digit>  ::= "0" | "1" | "2" | "3" | "4" | "5" | "6"

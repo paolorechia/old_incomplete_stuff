@@ -1,0 +1,1572 @@
+conv1_kernel_size: 3
+Precisao: 0.9778 ( 9778 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+979& 0& 1& 0& 0& 0& 3& 0& 3& 0\\ 
+ \hline
+0& 992& 1& 0& 0& 0& 1& 0& 0& 0\\ 
+ \hline
+1& 4& 985& 1& 1& 0& 0& 12& 1& 0\\ 
+ \hline
+0& 1& 3& 982& 0& 1& 0& 24& 2& 1\\ 
+ \hline
+10& 0& 0& 0& 944& 0& 2& 0& 2& 0\\ 
+ \hline
+4& 0& 1& 7& 0& 993& 12& 0& 3& 0\\ 
+ \hline
+1& 1& 0& 0& 1& 1& 982& 0& 0& 0\\ 
+ \hline
+0& 0& 3& 2& 0& 0& 0& 946& 1& 6\\ 
+ \hline
+4& 2& 5& 4& 2& 3& 0& 1& 984& 2\\ 
+ \hline
+1& 0& 1& 4& 52& 2& 0& 17& 4& 991\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv1_kernel_size: 4
+Precisao: 0.9813 ( 9813 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+983& 0& 6& 0& 0& 0& 3& 0& 8& 0\\ 
+ \hline
+0& 987& 4& 0& 0& 0& 2& 0& 4& 1\\ 
+ \hline
+1& 4& 981& 5& 0& 0& 0& 22& 2& 0\\ 
+ \hline
+0& 0& 1& 974& 0& 3& 0& 7& 4& 0\\ 
+ \hline
+6& 0& 1& 0& 989& 0& 0& 0& 1& 0\\ 
+ \hline
+1& 0& 2& 10& 0& 997& 7& 0& 8& 4\\ 
+ \hline
+4& 4& 1& 0& 6& 0& 988& 0& 0& 0\\ 
+ \hline
+3& 3& 1& 6& 0& 0& 0& 959& 1& 8\\ 
+ \hline
+2& 1& 2& 2& 3& 0& 0& 0& 970& 2\\ 
+ \hline
+0& 1& 1& 3& 2& 0& 0& 12& 2& 985\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv1_kernel_size: 5
+Precisao: 0.9825 ( 9825 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+983& 0& 2& 1& 0& 1& 1& 0& 3& 0\\ 
+ \hline
+0& 986& 0& 1& 0& 0& 0& 1& 0& 0\\ 
+ \hline
+1& 4& 984& 2& 0& 0& 0& 10& 3& 0\\ 
+ \hline
+0& 0& 0& 984& 0& 6& 0& 13& 2& 1\\ 
+ \hline
+4& 0& 2& 0& 976& 0& 1& 1& 0& 0\\ 
+ \hline
+0& 0& 0& 3& 0& 983& 5& 0& 1& 0\\ 
+ \hline
+3& 3& 6& 1& 3& 1& 990& 1& 0& 0\\ 
+ \hline
+2& 1& 2& 4& 0& 0& 0& 958& 0& 5\\ 
+ \hline
+4& 5& 3& 1& 3& 5& 3& 2& 988& 1\\ 
+ \hline
+3& 1& 1& 3& 18& 4& 0& 14& 3& 993\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv1_kernel_size: 6
+Precisao: 0.9753 ( 9753 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+970& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 991& 0& 1& 0& 1& 0& 0& 0& 0\\ 
+ \hline
+3& 4& 980& 0& 0& 1& 0& 12& 5& 0\\ 
+ \hline
+1& 1& 5& 985& 0& 16& 0& 11& 4& 0\\ 
+ \hline
+7& 0& 2& 0& 948& 0& 0& 1& 3& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 952& 4& 0& 0& 0\\ 
+ \hline
+8& 1& 0& 1& 11& 3& 989& 0& 0& 0\\ 
+ \hline
+2& 0& 4& 5& 0& 1& 0& 968& 1& 5\\ 
+ \hline
+8& 3& 7& 5& 1& 15& 7& 0& 976& 1\\ 
+ \hline
+1& 0& 2& 3& 40& 11& 0& 8& 11& 994\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv1_kernel_size: 7
+Precisao: 0.1000 ( 1000 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv1_stride: 1
+Precisao: 0.9834 ( 9834 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+984& 0& 1& 0& 0& 0& 1& 0& 1& 0\\ 
+ \hline
+0& 989& 1& 0& 1& 0& 2& 0& 1& 0\\ 
+ \hline
+1& 5& 986& 1& 0& 0& 0& 14& 4& 0\\ 
+ \hline
+0& 0& 2& 984& 0& 2& 0& 11& 2& 0\\ 
+ \hline
+6& 1& 1& 0& 990& 0& 2& 1& 4& 0\\ 
+ \hline
+2& 0& 0& 2& 0& 990& 5& 0& 1& 0\\ 
+ \hline
+2& 1& 1& 0& 2& 2& 988& 0& 0& 0\\ 
+ \hline
+0& 2& 2& 5& 0& 1& 0& 947& 1& 5\\ 
+ \hline
+4& 2& 5& 2& 1& 1& 2& 1& 982& 1\\ 
+ \hline
+1& 0& 1& 6& 6& 4& 0& 26& 4& 994\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv1_stride: 2
+Precisao: 0.9767 ( 9767 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+976& 0& 1& 0& 1& 1& 3& 0& 3& 0\\ 
+ \hline
+0& 982& 0& 1& 0& 0& 1& 0& 0& 0\\ 
+ \hline
+2& 5& 968& 2& 1& 0& 2& 7& 7& 0\\ 
+ \hline
+0& 2& 7& 984& 0& 30& 0& 22& 9& 1\\ 
+ \hline
+9& 0& 2& 0& 990& 1& 2& 1& 3& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 957& 3& 0& 0& 0\\ 
+ \hline
+1& 7& 2& 0& 0& 3& 987& 0& 0& 0\\ 
+ \hline
+0& 2& 11& 8& 0& 1& 0& 962& 1& 9\\ 
+ \hline
+6& 2& 6& 3& 2& 3& 2& 1& 973& 2\\ 
+ \hline
+6& 0& 3& 2& 6& 4& 0& 7& 4& 988\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv1_stride: 3
+Precisao: 0.9650 ( 9650 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+979& 4& 6& 1& 0& 5& 8& 0& 13& 0\\ 
+ \hline
+0& 985& 6& 3& 4& 3& 1& 11& 3& 1\\ 
+ \hline
+4& 8& 968& 13& 2& 1& 4& 5& 6& 0\\ 
+ \hline
+0& 0& 2& 945& 0& 15& 0& 0& 2& 0\\ 
+ \hline
+12& 0& 4& 0& 956& 0& 5& 1& 1& 0\\ 
+ \hline
+0& 0& 1& 2& 0& 950& 13& 0& 2& 0\\ 
+ \hline
+3& 2& 0& 2& 1& 4& 968& 0& 1& 0\\ 
+ \hline
+0& 0& 5& 14& 0& 0& 0& 947& 1& 9\\ 
+ \hline
+2& 1& 8& 8& 2& 14& 1& 0& 964& 2\\ 
+ \hline
+0& 0& 0& 12& 35& 8& 0& 36& 7& 988\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool1_kernel_size: 1
+Precisao: 0.1000 ( 1000 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool1_kernel_size: 2
+Precisao: 0.9798 ( 9798 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+982& 0& 1& 1& 1& 0& 2& 0& 0& 0\\ 
+ \hline
+0& 989& 0& 1& 0& 0& 1& 0& 0& 0\\ 
+ \hline
+1& 5& 985& 2& 0& 1& 0& 16& 1& 0\\ 
+ \hline
+1& 0& 2& 981& 0& 6& 0& 12& 3& 0\\ 
+ \hline
+5& 0& 1& 0& 962& 0& 1& 0& 1& 0\\ 
+ \hline
+0& 1& 1& 1& 0& 984& 7& 0& 2& 0\\ 
+ \hline
+3& 3& 2& 0& 6& 1& 989& 0& 0& 0\\ 
+ \hline
+1& 0& 2& 3& 0& 1& 0& 945& 1& 6\\ 
+ \hline
+5& 2& 5& 5& 3& 2& 0& 1& 988& 1\\ 
+ \hline
+2& 0& 1& 6& 28& 5& 0& 26& 4& 993\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool1_kernel_size: 3
+Precisao: 0.9825 ( 9825 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+989& 0& 0& 0& 1& 1& 3& 0& 0& 0\\ 
+ \hline
+0& 986& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+3& 3& 991& 1& 1& 0& 0& 18& 2& 0\\ 
+ \hline
+0& 0& 1& 987& 0& 5& 0& 26& 4& 0\\ 
+ \hline
+4& 0& 1& 0& 978& 1& 2& 0& 2& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 986& 7& 0& 1& 0\\ 
+ \hline
+2& 5& 1& 1& 2& 2& 986& 0& 0& 0\\ 
+ \hline
+0& 2& 3& 5& 0& 0& 0& 947& 1& 6\\ 
+ \hline
+2& 4& 2& 3& 2& 0& 2& 2& 984& 3\\ 
+ \hline
+0& 0& 1& 3& 16& 5& 0& 7& 6& 991\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool1_kernel_size: 4
+Precisao: 0.9844 ( 9844 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+988& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 988& 0& 1& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1& 5& 989& 0& 0& 0& 0& 3& 1& 0\\ 
+ \hline
+0& 2& 2& 992& 0& 9& 1& 19& 2& 0\\ 
+ \hline
+5& 0& 1& 0& 960& 0& 1& 0& 1& 0\\ 
+ \hline
+1& 0& 0& 0& 0& 987& 10& 0& 1& 0\\ 
+ \hline
+3& 1& 3& 0& 2& 2& 988& 0& 1& 0\\ 
+ \hline
+0& 1& 2& 6& 0& 0& 0& 970& 1& 7\\ 
+ \hline
+2& 3& 1& 0& 2& 0& 0& 0& 990& 1\\ 
+ \hline
+0& 0& 2& 1& 36& 2& 0& 8& 3& 992\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool1_stride: 1
+Precisao: 0.1000 ( 1000 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool1_stride: 2
+Precisao: 0.9834 ( 9834 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+976& 2& 2& 0& 0& 0& 2& 0& 3& 0\\ 
+ \hline
+0& 989& 0& 0& 1& 0& 0& 2& 1& 0\\ 
+ \hline
+3& 4& 987& 4& 0& 0& 0& 12& 4& 0\\ 
+ \hline
+0& 0& 0& 977& 0& 1& 0& 6& 1& 0\\ 
+ \hline
+6& 0& 3& 0& 986& 0& 3& 0& 3& 0\\ 
+ \hline
+4& 0& 0& 3& 0& 993& 6& 0& 3& 0\\ 
+ \hline
+2& 2& 2& 0& 3& 3& 989& 0& 0& 0\\ 
+ \hline
+3& 0& 3& 10& 0& 0& 0& 968& 1& 8\\ 
+ \hline
+5& 3& 2& 1& 1& 0& 0& 0& 978& 1\\ 
+ \hline
+1& 0& 1& 5& 9& 3& 0& 12& 6& 991\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool1_stride: 3
+Precisao: 0.9819 ( 9819 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+983& 0& 0& 0& 0& 1& 1& 0& 2& 0\\ 
+ \hline
+0& 994& 0& 3& 1& 0& 0& 5& 1& 0\\ 
+ \hline
+1& 3& 989& 3& 2& 0& 0& 16& 4& 2\\ 
+ \hline
+0& 1& 1& 984& 0& 6& 0& 15& 1& 1\\ 
+ \hline
+3& 0& 1& 0& 962& 0& 0& 1& 2& 0\\ 
+ \hline
+2& 0& 1& 0& 0& 986& 5& 0& 1& 0\\ 
+ \hline
+2& 1& 2& 0& 4& 1& 992& 0& 0& 0\\ 
+ \hline
+2& 0& 1& 2& 0& 1& 0& 954& 0& 6\\ 
+ \hline
+7& 1& 5& 4& 6& 3& 2& 1& 984& 0\\ 
+ \hline
+0& 0& 0& 4& 25& 2& 0& 8& 5& 991\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool1_stride: 4
+Precisao: 0.1000 ( 1000 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv2_kernel_size: 3
+Precisao: 0.9854 ( 9854 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+987& 1& 1& 0& 0& 0& 2& 0& 3& 0\\ 
+ \hline
+0& 993& 1& 1& 0& 0& 1& 0& 0& 0\\ 
+ \hline
+0& 2& 987& 0& 1& 0& 0& 7& 5& 1\\ 
+ \hline
+1& 0& 2& 991& 0& 9& 1& 26& 3& 1\\ 
+ \hline
+5& 0& 1& 0& 991& 0& 1& 0& 2& 0\\ 
+ \hline
+1& 0& 0& 0& 0& 986& 6& 0& 0& 0\\ 
+ \hline
+1& 0& 0& 0& 1& 2& 985& 0& 0& 0\\ 
+ \hline
+0& 1& 3& 6& 0& 0& 0& 962& 0& 10\\ 
+ \hline
+4& 3& 3& 1& 6& 3& 4& 0& 986& 2\\ 
+ \hline
+1& 0& 2& 1& 1& 0& 0& 5& 1& 986\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv2_kernel_size: 4
+Precisao: 0.9827 ( 9827 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+976& 0& 0& 0& 0& 0& 1& 0& 2& 0\\ 
+ \hline
+0& 988& 1& 1& 0& 0& 1& 0& 1& 0\\ 
+ \hline
+2& 4& 989& 2& 0& 1& 1& 9& 3& 0\\ 
+ \hline
+1& 0& 1& 981& 1& 3& 0& 13& 5& 1\\ 
+ \hline
+6& 0& 3& 0& 992& 0& 3& 1& 3& 0\\ 
+ \hline
+4& 0& 2& 3& 0& 994& 6& 0& 3& 2\\ 
+ \hline
+3& 4& 0& 0& 2& 0& 987& 0& 2& 0\\ 
+ \hline
+6& 2& 1& 4& 1& 0& 0& 962& 1& 14\\ 
+ \hline
+2& 2& 2& 5& 0& 2& 1& 4& 978& 3\\ 
+ \hline
+0& 0& 1& 4& 4& 0& 0& 11& 2& 980\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv2_kernel_size: 5
+Precisao: 0.9798 ( 9798 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+968& 0& 0& 0& 0& 0& 1& 0& 1& 0\\ 
+ \hline
+0& 988& 8& 2& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+2& 2& 967& 2& 1& 0& 0& 13& 2& 0\\ 
+ \hline
+0& 0& 3& 987& 0& 2& 0& 16& 4& 0\\ 
+ \hline
+7& 0& 2& 0& 974& 0& 1& 1& 0& 0\\ 
+ \hline
+6& 2& 1& 2& 0& 991& 12& 0& 1& 1\\ 
+ \hline
+5& 2& 2& 0& 5& 1& 986& 0& 1& 0\\ 
+ \hline
+6& 1& 9& 5& 0& 0& 0& 958& 1& 5\\ 
+ \hline
+5& 5& 7& 0& 3& 0& 0& 2& 986& 1\\ 
+ \hline
+1& 0& 1& 2& 17& 6& 0& 10& 4& 993\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv2_kernel_size: 6
+Precisao: 0.9813 ( 9813 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+984& 0& 1& 1& 0& 0& 3& 0& 2& 0\\ 
+ \hline
+0& 993& 1& 0& 0& 1& 2& 0& 0& 1\\ 
+ \hline
+2& 4& 984& 8& 0& 0& 0& 11& 2& 0\\ 
+ \hline
+0& 0& 3& 979& 0& 13& 0& 31& 2& 0\\ 
+ \hline
+5& 0& 1& 0& 990& 0& 1& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 2& 0& 971& 3& 0& 0& 1\\ 
+ \hline
+3& 1& 4& 1& 1& 0& 987& 0& 0& 0\\ 
+ \hline
+0& 0& 1& 3& 0& 1& 0& 947& 1& 8\\ 
+ \hline
+4& 2& 3& 3& 5& 13& 4& 0& 989& 1\\ 
+ \hline
+2& 0& 2& 3& 4& 1& 0& 11& 4& 989\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv2_kernel_size: 7
+Precisao: 0.9759 ( 9759 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+983& 0& 2& 0& 0& 0& 2& 0& 0& 0\\ 
+ \hline
+0& 980& 0& 1& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+2& 10& 987& 2& 1& 0& 1& 35& 4& 0\\ 
+ \hline
+0& 4& 1& 989& 1& 37& 1& 15& 22& 1\\ 
+ \hline
+8& 0& 1& 0& 973& 0& 1& 0& 2& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 956& 5& 0& 0& 0\\ 
+ \hline
+3& 1& 2& 0& 4& 1& 990& 0& 0& 0\\ 
+ \hline
+1& 2& 2& 8& 0& 0& 0& 941& 1& 8\\ 
+ \hline
+3& 3& 4& 0& 5& 4& 0& 0& 970& 1\\ 
+ \hline
+0& 0& 1& 0& 16& 2& 0& 9& 1& 990\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv2_stride: 1
+Precisao: 0.9837 ( 9837 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+986& 0& 1& 0& 0& 0& 3& 0& 1& 0\\ 
+ \hline
+0& 985& 0& 0& 0& 0& 0& 3& 0& 0\\ 
+ \hline
+1& 5& 979& 3& 0& 0& 0& 12& 3& 0\\ 
+ \hline
+0& 0& 1& 979& 0& 2& 0& 17& 2& 0\\ 
+ \hline
+4& 0& 2& 0& 983& 0& 0& 1& 1& 0\\ 
+ \hline
+1& 0& 1& 2& 0& 993& 3& 0& 2& 0\\ 
+ \hline
+4& 4& 3& 0& 6& 1& 994& 1& 0& 0\\ 
+ \hline
+0& 1& 7& 7& 0& 0& 0& 956& 0& 5\\ 
+ \hline
+4& 5& 5& 4& 4& 3& 0& 0& 988& 1\\ 
+ \hline
+0& 0& 1& 5& 7& 1& 0& 10& 3& 994\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv2_stride: 2
+Precisao: 0.9839 ( 9839 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+986& 1& 0& 1& 0& 0& 1& 0& 2& 0\\ 
+ \hline
+0& 989& 2& 0& 1& 0& 1& 0& 0& 0\\ 
+ \hline
+1& 8& 987& 3& 1& 0& 0& 16& 2& 0\\ 
+ \hline
+0& 0& 2& 978& 0& 6& 0& 10& 4& 1\\ 
+ \hline
+3& 0& 3& 0& 983& 0& 2& 1& 3& 0\\ 
+ \hline
+1& 0& 1& 1& 0& 990& 5& 0& 2& 0\\ 
+ \hline
+1& 0& 0& 0& 3& 1& 989& 0& 0& 0\\ 
+ \hline
+0& 0& 2& 12& 0& 0& 0& 969& 1& 11\\ 
+ \hline
+5& 2& 1& 2& 3& 1& 2& 2& 981& 1\\ 
+ \hline
+3& 0& 2& 3& 9& 2& 0& 2& 5& 987\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv2_stride: 4
+Precisao: 0.9732 ( 9732 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+975& 0& 1& 0& 0& 0& 4& 0& 3& 0\\ 
+ \hline
+0& 990& 3& 1& 0& 0& 0& 0& 1& 0\\ 
+ \hline
+2& 2& 958& 2& 1& 0& 1& 2& 2& 0\\ 
+ \hline
+2& 1& 3& 961& 0& 5& 0& 4& 2& 0\\ 
+ \hline
+2& 1& 1& 1& 989& 2& 6& 31& 1& 3\\ 
+ \hline
+1& 0& 1& 6& 1& 983& 9& 0& 2& 0\\ 
+ \hline
+1& 1& 7& 0& 0& 1& 980& 0& 1& 0\\ 
+ \hline
+0& 0& 4& 2& 0& 0& 0& 931& 1& 8\\ 
+ \hline
+8& 5& 15& 17& 1& 5& 0& 2& 978& 2\\ 
+ \hline
+9& 0& 7& 10& 8& 4& 0& 30& 9& 987\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv2_stride: 5
+Precisao: 0.9018 ( 9018 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+923& 2& 12& 1& 4& 21& 8& 5& 9& 1\\ 
+ \hline
+3& 984& 8& 14& 11& 5& 6& 3& 20& 1\\ 
+ \hline
+18& 5& 875& 14& 8& 25& 3& 36& 7& 2\\ 
+ \hline
+0& 0& 17& 908& 1& 29& 0& 43& 9& 7\\ 
+ \hline
+13& 1& 7& 7& 920& 27& 4& 14& 23& 22\\ 
+ \hline
+12& 2& 13& 20& 6& 822& 9& 5& 49& 28\\ 
+ \hline
+18& 5& 36& 0& 45& 12& 968& 2& 7& 2\\ 
+ \hline
+7& 0& 11& 13& 0& 12& 0& 881& 5& 12\\ 
+ \hline
+6& 1& 16& 1& 0& 1& 2& 0& 818& 6\\ 
+ \hline
+0& 0& 5& 22& 5& 46& 0& 11& 53& 919\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool2_kernel_size: 1
+Precisao: 0.1000 ( 1000 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool2_kernel_size: 2
+Precisao: 0.9812 ( 9812 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+990& 0& 0& 1& 1& 0& 1& 0& 3& 0\\ 
+ \hline
+0& 993& 5& 1& 0& 0& 3& 0& 1& 0\\ 
+ \hline
+0& 3& 953& 1& 0& 1& 0& 0& 1& 0\\ 
+ \hline
+1& 0& 9& 984& 0& 17& 0& 19& 7& 0\\ 
+ \hline
+4& 1& 1& 0& 994& 0& 0& 0& 5& 4\\ 
+ \hline
+0& 0& 0& 1& 0& 978& 3& 0& 0& 0\\ 
+ \hline
+2& 1& 4& 0& 3& 1& 992& 0& 1& 0\\ 
+ \hline
+1& 1& 19& 6& 0& 0& 0& 971& 1& 12\\ 
+ \hline
+2& 1& 7& 3& 1& 1& 1& 0& 976& 3\\ 
+ \hline
+0& 0& 2& 3& 1& 2& 0& 10& 5& 981\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool2_kernel_size: 4
+Precisao: 0.9875 ( 9875 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+993& 1& 0& 0& 0& 2& 1& 0& 5& 0\\ 
+ \hline
+0& 988& 0& 1& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1& 7& 987& 1& 1& 0& 0& 11& 3& 0\\ 
+ \hline
+0& 0& 1& 981& 0& 0& 0& 8& 1& 0\\ 
+ \hline
+3& 0& 0& 0& 990& 0& 0& 1& 3& 1\\ 
+ \hline
+1& 0& 0& 5& 0& 992& 5& 0& 0& 1\\ 
+ \hline
+2& 2& 1& 0& 4& 1& 994& 0& 1& 0\\ 
+ \hline
+0& 1& 7& 9& 0& 0& 0& 979& 1& 10\\ 
+ \hline
+0& 1& 1& 1& 1& 2& 0& 0& 984& 1\\ 
+ \hline
+0& 0& 3& 2& 4& 3& 0& 1& 2& 987\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool2_kernel_size: 5
+Precisao: 0.9881 ( 9881 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+990& 0& 0& 0& 0& 0& 1& 0& 1& 0\\ 
+ \hline
+0& 992& 1& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+4& 5& 993& 3& 1& 0& 0& 14& 2& 0\\ 
+ \hline
+0& 0& 0& 987& 0& 2& 0& 4& 2& 0\\ 
+ \hline
+0& 0& 0& 0& 975& 0& 0& 3& 0& 0\\ 
+ \hline
+2& 0& 0& 1& 0& 997& 7& 0& 1& 0\\ 
+ \hline
+1& 1& 0& 0& 1& 0& 992& 0& 0& 0\\ 
+ \hline
+0& 1& 2& 4& 0& 0& 0& 969& 1& 5\\ 
+ \hline
+3& 1& 3& 0& 2& 0& 0& 0& 992& 1\\ 
+ \hline
+0& 0& 1& 5& 21& 1& 0& 10& 1& 994\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool2_stride: 1
+Precisao: 0.1000 ( 1000 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool2_stride: 2
+Precisao: 0.9839 ( 9839 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+983& 3& 2& 0& 0& 0& 1& 0& 0& 0\\ 
+ \hline
+0& 989& 1& 2& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1& 4& 988& 0& 0& 0& 0& 8& 2& 0\\ 
+ \hline
+0& 0& 1& 991& 0& 2& 0& 41& 2& 0\\ 
+ \hline
+4& 0& 1& 0& 985& 0& 2& 0& 2& 0\\ 
+ \hline
+0& 0& 1& 1& 0& 987& 6& 0& 0& 0\\ 
+ \hline
+3& 1& 0& 0& 2& 1& 988& 0& 0& 0\\ 
+ \hline
+0& 0& 1& 3& 0& 0& 0& 944& 1& 4\\ 
+ \hline
+6& 3& 4& 1& 1& 5& 3& 0& 989& 1\\ 
+ \hline
+3& 0& 1& 2& 12& 5& 0& 7& 4& 995\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool2_stride: 3
+Precisao: 0.9757 ( 9757 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+980& 0& 0& 1& 0& 0& 1& 0& 3& 0\\ 
+ \hline
+0& 992& 3& 1& 2& 0& 1& 4& 4& 1\\ 
+ \hline
+2& 5& 983& 2& 0& 0& 0& 10& 3& 0\\ 
+ \hline
+0& 0& 3& 987& 0& 13& 1& 13& 45& 1\\ 
+ \hline
+9& 0& 1& 0& 972& 0& 1& 0& 4& 0\\ 
+ \hline
+0& 0& 0& 1& 0& 985& 6& 0& 8& 1\\ 
+ \hline
+3& 2& 4& 0& 2& 2& 990& 0& 1& 0\\ 
+ \hline
+3& 0& 1& 5& 0& 0& 0& 958& 1& 10\\ 
+ \hline
+2& 1& 1& 0& 0& 0& 0& 0& 924& 1\\ 
+ \hline
+1& 0& 4& 3& 24& 0& 0& 15& 7& 986\\ 
+ \hline
+\end{tabular}
+\end{center}
+pool2_stride: 4
+Precisao: 0.9826 ( 9826 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+985& 0& 2& 0& 0& 1& 0& 0& 3& 0\\ 
+ \hline
+0& 993& 0& 1& 1& 0& 1& 3& 1& 0\\ 
+ \hline
+1& 2& 989& 3& 0& 1& 0& 10& 5& 0\\ 
+ \hline
+0& 0& 2& 984& 0& 4& 0& 26& 3& 1\\ 
+ \hline
+6& 0& 1& 0& 980& 0& 1& 0& 3& 0\\ 
+ \hline
+1& 0& 0& 3& 0& 985& 9& 0& 1& 0\\ 
+ \hline
+3& 2& 0& 0& 2& 0& 986& 0& 0& 0\\ 
+ \hline
+0& 0& 2& 6& 0& 0& 0& 951& 0& 6\\ 
+ \hline
+4& 3& 3& 2& 4& 4& 3& 0& 981& 1\\ 
+ \hline
+0& 0& 1& 1& 13& 5& 0& 10& 3& 992\\ 
+ \hline
+\end{tabular}
+\end{center}
+scale: 0.00190625
+Precisao: 0.9795 ( 9795 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+975& 0& 0& 0& 0& 0& 2& 0& 1& 0\\ 
+ \hline
+0& 981& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+3& 5& 980& 0& 2& 0& 0& 9& 6& 0\\ 
+ \hline
+2& 5& 7& 989& 0& 3& 0& 25& 10& 2\\ 
+ \hline
+6& 0& 1& 0& 992& 0& 2& 0& 3& 0\\ 
+ \hline
+4& 2& 1& 5& 0& 996& 30& 0& 6& 3\\ 
+ \hline
+1& 3& 0& 0& 1& 0& 965& 0& 0& 0\\ 
+ \hline
+2& 1& 9& 3& 0& 0& 0& 960& 0& 6\\ 
+ \hline
+5& 3& 1& 0& 2& 0& 1& 0& 969& 1\\ 
+ \hline
+2& 0& 1& 3& 3& 1& 0& 6& 5& 988\\ 
+ \hline
+\end{tabular}
+\end{center}
+scale: 0.00290625
+Precisao: 0.9829 ( 9829 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+989& 0& 1& 1& 0& 0& 1& 0& 0& 0\\ 
+ \hline
+0& 981& 0& 1& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1& 6& 990& 2& 1& 0& 0& 14& 5& 0\\ 
+ \hline
+0& 1& 2& 984& 0& 4& 0& 22& 2& 0\\ 
+ \hline
+3& 0& 2& 0& 977& 0& 2& 0& 0& 0\\ 
+ \hline
+2& 0& 0& 2& 1& 994& 11& 0& 1& 2\\ 
+ \hline
+0& 4& 0& 0& 1& 0& 986& 1& 0& 0\\ 
+ \hline
+1& 0& 1& 4& 0& 0& 0& 950& 0& 8\\ 
+ \hline
+4& 8& 2& 2& 1& 0& 0& 0& 989& 1\\ 
+ \hline
+0& 0& 2& 4& 19& 2& 0& 13& 3& 989\\ 
+ \hline
+\end{tabular}
+\end{center}
+scale: 0.00390625
+Precisao: 0.9837 ( 9837 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+984& 0& 0& 0& 0& 0& 1& 0& 1& 0\\ 
+ \hline
+0& 991& 0& 1& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1& 5& 968& 3& 0& 0& 0& 6& 3& 0\\ 
+ \hline
+0& 0& 1& 976& 0& 2& 0& 19& 0& 0\\ 
+ \hline
+4& 0& 1& 0& 985& 0& 1& 1& 2& 0\\ 
+ \hline
+0& 0& 0& 6& 0& 989& 4& 0& 0& 0\\ 
+ \hline
+3& 1& 0& 0& 1& 2& 994& 0& 0& 0\\ 
+ \hline
+0& 1& 21& 4& 0& 0& 0& 962& 1& 0\\ 
+ \hline
+6& 2& 6& 4& 2& 3& 0& 0& 989& 1\\ 
+ \hline
+2& 0& 3& 6& 12& 4& 0& 12& 4& 999\\ 
+ \hline
+\end{tabular}
+\end{center}
+scale: 0.00490625
+Precisao: 0.9806 ( 9806 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+985& 1& 2& 0& 0& 3& 2& 0& 7& 0\\ 
+ \hline
+1& 995& 6& 1& 1& 0& 2& 6& 2& 0\\ 
+ \hline
+0& 3& 980& 3& 0& 0& 0& 8& 6& 0\\ 
+ \hline
+0& 0& 0& 979& 0& 8& 0& 9& 1& 0\\ 
+ \hline
+7& 0& 1& 0& 988& 0& 1& 1& 4& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 970& 4& 0& 2& 0\\ 
+ \hline
+5& 0& 2& 1& 2& 6& 991& 1& 0& 0\\ 
+ \hline
+0& 0& 3& 6& 0& 0& 0& 951& 0& 6\\ 
+ \hline
+2& 1& 5& 4& 1& 8& 0& 2& 974& 1\\ 
+ \hline
+0& 0& 1& 6& 8& 5& 0& 22& 4& 993\\ 
+ \hline
+\end{tabular}
+\end{center}
+scale: 0.00590625
+Precisao: 0.1000 ( 1000 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+\end{tabular}
+\end{center}
+batch_size: 2
+Precisao: 0.1000 ( 1000 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+\end{tabular}
+\end{center}
+batch_size: 4
+Precisao: 0.1000 ( 1000 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+\end{tabular}
+\end{center}
+batch_size: 8
+Precisao: 0.1000 ( 1000 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000& 1000\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+\end{tabular}
+\end{center}
+batch_size: 16
+Precisao: 0.9807 ( 9807 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+985& 2& 0& 0& 0& 0& 1& 0& 1& 0\\ 
+ \hline
+0& 988& 0& 1& 0& 0& 0& 0& 0& 0\\ 
+ \hline
+2& 6& 984& 1& 0& 0& 0& 12& 3& 0\\ 
+ \hline
+0& 0& 2& 990& 0& 25& 0& 29& 0& 0\\ 
+ \hline
+6& 0& 2& 0& 983& 0& 1& 0& 2& 0\\ 
+ \hline
+0& 0& 0& 0& 0& 961& 6& 0& 1& 2\\ 
+ \hline
+3& 0& 0& 0& 2& 2& 987& 1& 0& 0\\ 
+ \hline
+0& 1& 7& 4& 0& 0& 0& 947& 1& 5\\ 
+ \hline
+4& 3& 4& 1& 3& 7& 5& 1& 991& 2\\ 
+ \hline
+0& 0& 1& 3& 12& 5& 0& 10& 1& 991\\ 
+ \hline
+\end{tabular}
+\end{center}
+batch_size: 32
+Precisao: 0.9848 ( 9848 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+980& 1& 0& 0& 0& 0& 2& 0& 3& 0\\ 
+ \hline
+0& 990& 0& 1& 0& 0& 1& 1& 0& 0\\ 
+ \hline
+1& 5& 989& 4& 1& 0& 0& 7& 6& 0\\ 
+ \hline
+0& 0& 2& 980& 0& 3& 0& 6& 3& 0\\ 
+ \hline
+9& 0& 1& 0& 990& 0& 1& 1& 4& 0\\ 
+ \hline
+1& 0& 0& 2& 0& 993& 7& 0& 1& 0\\ 
+ \hline
+1& 2& 1& 0& 1& 0& 989& 0& 0& 0\\ 
+ \hline
+5& 1& 1& 7& 0& 0& 0& 968& 0& 8\\ 
+ \hline
+3& 1& 3& 3& 2& 1& 0& 0& 979& 2\\ 
+ \hline
+0& 0& 3& 3& 6& 3& 0& 17& 4& 990\\ 
+ \hline
+\end{tabular}
+\end{center}
+batch_size: 64
+Precisao: 0.9827 ( 9827 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+980& 0& 1& 0& 0& 1& 2& 0& 4& 0\\ 
+ \hline
+0& 992& 1& 1& 0& 0& 1& 1& 0& 0\\ 
+ \hline
+3& 5& 983& 3& 1& 0& 0& 13& 3& 0\\ 
+ \hline
+0& 0& 3& 975& 0& 5& 0& 1& 5& 0\\ 
+ \hline
+7& 0& 1& 0& 990& 0& 2& 1& 4& 0\\ 
+ \hline
+3& 0& 1& 5& 1& 991& 9& 0& 2& 1\\ 
+ \hline
+2& 1& 0& 0& 1& 1& 986& 0& 0& 0\\ 
+ \hline
+1& 0& 1& 6& 0& 0& 0& 963& 1& 7\\ 
+ \hline
+3& 2& 6& 5& 3& 0& 0& 1& 978& 3\\ 
+ \hline
+1& 0& 3& 5& 4& 2& 0& 20& 3& 989\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv3_kernel_size: 1
+Precisao: 0.9803 ( 9803 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+984& 0& 2& 0& 0& 1& 2& 0& 2& 0\\ 
+ \hline
+0& 993& 1& 1& 0& 2& 0& 0& 0& 0\\ 
+ \hline
+2& 5& 985& 2& 1& 1& 0& 7& 2& 0\\ 
+ \hline
+0& 0& 2& 983& 0& 4& 0& 10& 8& 1\\ 
+ \hline
+5& 0& 2& 0& 964& 0& 1& 0& 3& 0\\ 
+ \hline
+0& 0& 0& 3& 0& 982& 7& 0& 3& 0\\ 
+ \hline
+4& 1& 0& 0& 1& 3& 990& 0& 2& 0\\ 
+ \hline
+3& 0& 3& 4& 0& 0& 0& 967& 1& 8\\ 
+ \hline
+2& 1& 3& 2& 1& 1& 0& 1& 965& 1\\ 
+ \hline
+0& 0& 2& 5& 33& 6& 0& 15& 14& 990\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv3_kernel_size: 2
+Precisao: 0.9787 ( 9787 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+991& 2& 4& 0& 1& 1& 4& 0& 15& 0\\ 
+ \hline
+0& 991& 2& 0& 1& 0& 0& 0& 2& 1\\ 
+ \hline
+2& 3& 964& 1& 0& 0& 0& 8& 2& 0\\ 
+ \hline
+0& 0& 8& 991& 0& 17& 0& 30& 7& 1\\ 
+ \hline
+3& 1& 1& 0& 988& 5& 0& 0& 2& 3\\ 
+ \hline
+0& 0& 0& 2& 0& 955& 1& 0& 2& 0\\ 
+ \hline
+2& 3& 7& 0& 7& 2& 994& 0& 0& 0\\ 
+ \hline
+0& 0& 7& 4& 0& 0& 0& 956& 1& 4\\ 
+ \hline
+2& 0& 2& 0& 2& 4& 1& 2& 967& 1\\ 
+ \hline
+0& 0& 5& 2& 1& 16& 0& 4& 2& 990\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv3_kernel_size: 3
+Precisao: 0.9791 ( 9791 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+985& 0& 3& 0& 0& 0& 3& 0& 8& 0\\ 
+ \hline
+0& 993& 12& 3& 0& 0& 2& 12& 3& 0\\ 
+ \hline
+3& 1& 962& 5& 0& 0& 0& 10& 2& 0\\ 
+ \hline
+0& 0& 2& 980& 0& 5& 0& 24& 2& 3\\ 
+ \hline
+4& 0& 2& 0& 981& 0& 2& 0& 1& 0\\ 
+ \hline
+3& 0& 0& 6& 0& 989& 7& 0& 1& 0\\ 
+ \hline
+1& 4& 8& 0& 1& 1& 986& 0& 0& 0\\ 
+ \hline
+0& 0& 5& 4& 0& 1& 0& 947& 0& 8\\ 
+ \hline
+4& 2& 5& 0& 4& 1& 0& 0& 980& 1\\ 
+ \hline
+0& 0& 1& 2& 14& 3& 0& 7& 3& 988\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv3_kernel_size: 4
+Precisao: 0.9832 ( 9832 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+983& 2& 7& 0& 0& 0& 2& 0& 6& 0\\ 
+ \hline
+0& 990& 3& 1& 1& 0& 1& 0& 2& 0\\ 
+ \hline
+1& 1& 970& 0& 0& 0& 0& 7& 2& 0\\ 
+ \hline
+0& 0& 2& 982& 0& 8& 0& 12& 0& 1\\ 
+ \hline
+4& 0& 1& 0& 990& 0& 1& 3& 0& 0\\ 
+ \hline
+3& 0& 0& 0& 0& 980& 2& 0& 0& 1\\ 
+ \hline
+5& 3& 7& 1& 4& 4& 992& 0& 0& 0\\ 
+ \hline
+2& 2& 5& 11& 0& 0& 0& 971& 1& 9\\ 
+ \hline
+2& 2& 5& 1& 3& 7& 2& 0& 986& 1\\ 
+ \hline
+0& 0& 0& 4& 2& 1& 0& 7& 3& 988\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv3_stride: 1
+Precisao: 0.9834 ( 9834 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+982& 0& 1& 0& 0& 0& 1& 0& 0& 0\\ 
+ \hline
+0& 991& 1& 1& 0& 0& 2& 2& 1& 0\\ 
+ \hline
+1& 4& 988& 2& 1& 0& 0& 11& 4& 0\\ 
+ \hline
+0& 0& 0& 981& 0& 2& 0& 10& 4& 0\\ 
+ \hline
+7& 0& 1& 0& 974& 0& 2& 0& 3& 0\\ 
+ \hline
+4& 0& 1& 4& 0& 995& 11& 0& 3& 1\\ 
+ \hline
+1& 2& 2& 0& 5& 1& 984& 1& 0& 0\\ 
+ \hline
+0& 1& 2& 5& 0& 0& 0& 965& 1& 5\\ 
+ \hline
+3& 2& 3& 4& 0& 2& 0& 0& 980& 0\\ 
+ \hline
+2& 0& 1& 3& 20& 0& 0& 11& 4& 994\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv3_stride: 2
+Precisao: 0.9791 ( 9791 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+988& 0& 2& 0& 0& 1& 1& 0& 4& 0\\ 
+ \hline
+0& 989& 0& 1& 1& 0& 0& 0& 0& 0\\ 
+ \hline
+1& 3& 989& 4& 1& 0& 0& 16& 5& 0\\ 
+ \hline
+0& 1& 3& 978& 0& 2& 0& 23& 4& 2\\ 
+ \hline
+7& 0& 1& 0& 961& 0& 1& 0& 2& 0\\ 
+ \hline
+0& 0& 0& 4& 0& 987& 4& 0& 2& 0\\ 
+ \hline
+2& 3& 1& 0& 5& 1& 990& 0& 0& 0\\ 
+ \hline
+0& 0& 0& 6& 0& 0& 0& 943& 0& 5\\ 
+ \hline
+2& 4& 3& 3& 1& 3& 4& 3& 975& 2\\ 
+ \hline
+0& 0& 1& 4& 31& 6& 0& 15& 8& 991\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv3_stride: 3
+Precisao: 0.9730 ( 9730 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+981& 0& 1& 0& 2& 2& 3& 0& 6& 0\\ 
+ \hline
+0& 988& 0& 0& 0& 1& 1& 0& 0& 0\\ 
+ \hline
+0& 4& 969& 7& 1& 2& 0& 5& 4& 0\\ 
+ \hline
+1& 0& 4& 970& 1& 8& 0& 15& 5& 1\\ 
+ \hline
+5& 0& 4& 0& 963& 1& 2& 0& 1& 0\\ 
+ \hline
+2& 0& 1& 4& 0& 959& 6& 0& 2& 0\\ 
+ \hline
+2& 5& 6& 0& 7& 4& 982& 1& 0& 0\\ 
+ \hline
+4& 2& 7& 8& 0& 4& 0& 965& 1& 14\\ 
+ \hline
+5& 1& 8& 5& 4& 6& 6& 1& 969& 1\\ 
+ \hline
+0& 0& 0& 6& 22& 13& 0& 13& 12& 984\\ 
+ \hline
+\end{tabular}
+\end{center}
+conv3_stride: 4
+Precisao: 0.9790 ( 9790 / 10000 ) \\
+Matriz de confusao: \\
+\begin{center}
+\begin{tabular}
+{|c|c|c|c|c|c|c|c|c|c|}
+
+\hline
+984& 0& 1& 1& 1& 1& 3& 0& 6& 0\\ 
+ \hline
+0& 984& 4& 2& 3& 0& 0& 3& 2& 2\\ 
+ \hline
+3& 8& 973& 2& 0& 1& 1& 4& 3& 0\\ 
+ \hline
+0& 0& 9& 971& 0& 5& 0& 8& 4& 0\\ 
+ \hline
+4& 0& 2& 0& 983& 0& 0& 1& 1& 0\\ 
+ \hline
+1& 1& 0& 2& 0& 980& 9& 0& 3& 0\\ 
+ \hline
+2& 4& 2& 0& 1& 3& 985& 0& 0& 0\\ 
+ \hline
+1& 0& 3& 7& 2& 0& 0& 975& 0& 16\\ 
+ \hline
+4& 3& 4& 13& 3& 7& 2& 2& 977& 4\\ 
+ \hline
+1& 0& 2& 2& 7& 3& 0& 7& 4& 978\\ 
+ \hline
+\end{tabular}
+\end{center}
+\begin{figure}[H]\centerline{\includegraphics[scale=0.6]{conv3_stride_plot.pdf}{\end{figure}{'batch_size': [0.1, 0.1, 0.1, 0.9807, 0.9848, 0.9827],
+ 'conv1_kernel_size': [0.9778, 0.9813, 0.9825, 0.9753, 0.1],
+ 'conv1_stride': [0.9834, 0.9767, 0.965],
+ 'conv2_kernel_size': [0.9854, 0.9827, 0.9798, 0.9813, 0.9759],
+ 'conv2_stride': [0.9837, 0.9839, 0.9732, 0.9018],
+ 'conv3_kernel_size': [0.9803, 0.9787, 0.9791, 0.9832],
+ 'conv3_stride': [0.9834, 0.9791, 0.973, 0.979],
+ 'pool1_kernel_size': [0.1, 0.9798, 0.9825, 0.9844],
+ 'pool1_stride': [0.1, 0.9834, 0.9819, 0.1],
+ 'pool2_kernel_size': [0.1, 0.9812, 0.9875, 0.9881],
+ 'pool2_stride': [0.1, 0.9839, 0.9757, 0.9826],
+ 'scale': [0.9795, 0.9829, 0.9837, 0.9806, 0.1]}

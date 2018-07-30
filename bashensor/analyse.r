@@ -1,0 +1,5 @@
+data<-read.csv("temperature.csv")
+GPU<-(data[,1])
+CPU0<-(data[,2])
+GPUmean=mean(GPU)
+# print(GPUmean)
