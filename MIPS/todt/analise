@@ -1,0 +1,16 @@
+1. São declaradas p, q e r.
+
+2. O programa main prepara os argumentos que vai passar para a função add_nums
+
+3. PC = 0x0040002c; ra = 0x00400030
+O registrador ra tem o endereço da próxima instrução, isto é, PC + 4
+
+4. No prólogo a função add_nums empilha os valores dos registradores necessários.
+ Especificamente é atualizado e empilhado o frame pointer (fp), que agora aponta
+ para a primeira palavra da memória do stack frame da função.
+ Depois o stack pointer é decrementado e os registradores $s0, $s1 e $s2
+ são empilhados.
+
+5. No epílogo os valores originais dos registradores "s" são desempilhados e restaurados para os respectivos registradores. Em seguida o stackpointer e framepointer são reajustados para o valor anterior à chamada da função.
+
+6. NULL

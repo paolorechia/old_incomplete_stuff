@@ -1,0 +1,68 @@
+        .data
+N1:     .word 1
+N2:     .word 5
+
+        .text
+        .globl main
+
+main:   la $t0, N1
+        la $t9, N2
+        lw $t0, 0($t0)
+        lw $t9, 0($t9)
+
+
+        # confere se N1 ou N2 == 0 e termina o programa se necessário
+        beq $t0, $zero, fim_0
+        beq $t9, $zero, fim_0
+        
+
+        #confere se N2 < N1
+        sub $t5, $t9, $t0           # t5 <- N2 - N1
+        slt $t6, $t5, $zero         # se t5 < zero -> N2 < N1, setar t6
+        bne $t6, $zero, fim_1       # pular para fim1 se t6 foi setado acima
+
+        # inicializa os primeiros termos da serie de fibonacci
+        addi $t1, $t1, 1            # anterior
+        addi $t2, $t2, 1            # atual
+        addi $t3, $t3, 2            # proximo
+
+        li $t4, 1                   # i = 1
+        add $s0, $zero, $zero       # soma = 0 
+
+loop:   sub $t5, $t9, $t4           # t5<- N2 - i
+        beq $t5, $zero, fim_2       # se t5 == 0 -> fim2
+
+
+        sub $t5, $t4, $t0           # t5 <- i - N1
+        slt $t6, $zero, $t5         # t6 <- (t5 < 0? 0 : 1)
+        beq $t6, $zero, n_soma      # se t6 == 0, i < N1 -> nao somar
+
+        add $s0, $s0, $t2           # soma = soma + atual
+
+n_soma: add $t3, $t1, $t2           # proximo = atual + anterior
+        add $t1, $t2, $zero         # t1 <- t2 (anterior = atual)
+        add $t2, $t3, $zero         # t2 <- t3 (atual = proximo)
+        addi $t4, $t4, 1            # i++
+        j loop
+
+
+
+
+fim_0:  li $a0, 0                    # Imprime 0
+        li $v0, 1
+        syscall                     # syscall(1) == imprime inteiro
+
+        li $v0, 10
+        syscall                     # syscall(10) == termino do programa
+
+fim_1:  li $a0, -1                   # Imprime -1
+        li $v0, 1                    
+        syscall                     # syscall(1)
+
+        li $v0, 10
+        syscall                     # syscall (10)
+
+
+fim_2:  move $a0, $s0                 # Imprime valor somado
+        li $v0, 1
+        syscall                     # syscall(1)
